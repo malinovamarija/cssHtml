@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="hm1css.css">
+    <title>Pocnuvame</title>
+  </head>
+  <body>
+    <header>
+      <h1>Prva Domasna Kuckanje</h1>
+    </header>
+
+    <div class="container">
+      <p class="intro">
+        This is a procedure for handling outages of electrical power in the server room.
+      </p>
+
+      <div class="instructions">
+        <div class="instruction">
+          <b>Electrical Power is Off</b>
+          <div class="steps">
+            <ol>
+              <li>Do not shut down any UPS or server manually.</li>
+              <li>Silence the fire alarm.</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="instruction">
+          <b>Electrical Power is On</b>
+          <div class="steps">
+            <ol>
+              <li>Ensure SAP-mail is established through the firewall.</li>
+              <li>Servers should be operational.</li>
+              <ul>
+                <li>Ping the IP from the VM.</li>
+                <li>Connect remotely to the server and restart.</li>
+                <li>Check the VM again.</li>
+              </ul>
+            </ol>
+          </div>
+        </div>
+
+        <div class="instruction">
+          <b>Check and Re-check Application Servers</b>
+          <div class="steps">
+            <ul>
+              <li>
+                ERP Beyond Login:
+                <ul>
+                  <li>If not operational, restart the pbaza server.</li>
+                  <li>Log in to the PowerMon server and start manually.</li>
+                  <li>Ping OMS and Origami servers.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        <abbr title="IT Manager">Manager</abbr> Robert Ristovski is an
+        infrastructure and application manager.
+      </p>
+      <a href="../index.html">BACK</a>
+    </footer>
+  </body>
+</html>

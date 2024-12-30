@@ -1,0 +1,62 @@
+/*.naslov{
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}*/
+header{
+    background-color: #007acc;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+}
+.kopce{
+    display: inline-block;
+    margin-top: 10px; /* Простор над линкот */
+    padding: 10px 20px; /* Простор внатре во линкот */
+    color: #fff; /* Боја на текстот */
+    background-color: #007BFF; /* Боја на позадината на линкот */
+    text-decoration: none; /* Без подвлекување */
+    border-radius: 5px; /* Заоблени агли на линкот */
+    transition: background-color 0.3s ease;
+    margin-left: 660px;
+}
+.link1{
+    text-decoration: none;
+    font-size: 20px;
+
+    text-align: center;
+    display: flex;
+    padding-left: 6px;
+    color: white;
+}
+.card {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    /*font-family: Arial, sans-serif;*/
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+}
+
+.card a:hover {
+    background-color: #0056b3; /* Потемна боја при hover */
+}
