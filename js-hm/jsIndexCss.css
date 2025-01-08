@@ -1,0 +1,73 @@
+
+        /* Основен стил за телото */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Заглавие */
+        header {
+            background-color: #007acc;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+
+        /* Контејнер за листата */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+        }
+
+        /* Листа на домашни задачи */
+        .homework-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .homework-list li {
+            margin: 10px 0;
+        }
+
+        /* Стил за линковите */
+        .homework-list a {
+            display: block;
+            text-decoration: none;
+            color: white;
+            background-color: #007acc;
+            padding: 10px 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+        .homework-list a:hover {
+            background-color: #005f99;
+        }
+
+        /* Футер */
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer a {
+            color: #007acc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
